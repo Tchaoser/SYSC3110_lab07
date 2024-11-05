@@ -7,6 +7,7 @@ public abstract class Site {
         return getBaseAmount() + getTaxAmount();
     }
 
+    //abstracts added
     protected abstract double getBaseAmount();
     protected abstract double getTaxAmount();
 }
