@@ -3,5 +3,10 @@ public abstract class Site {
     protected double _rate;
     public static final double TAX_RATE = 0.2;
 
-    public abstract double getBillableAmount();
+    public double getBillableAmount() {
+        return getBaseAmount() + getTaxAmount();
+    }
+
+    protected abstract double getBaseAmount();
+    protected abstract double getTaxAmount();
 }
