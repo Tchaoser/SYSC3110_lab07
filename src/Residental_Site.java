@@ -5,6 +5,7 @@ public class Residental_Site extends Site {
         double base = _units * _rate * 0.5;
         return base;
     }
+    //final
 
     @Override
     public double getTaxAmount() {

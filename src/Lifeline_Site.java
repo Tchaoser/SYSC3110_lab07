@@ -5,6 +5,7 @@ public class Lifeline_Site extends Site {
         return base;
     }
 
+    //final
 
     @Override
     public double getTaxAmount() {
